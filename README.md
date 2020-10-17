@@ -25,6 +25,7 @@ Inside your local git repository, create a directory for the SQL challenge. Use 
 Add your files to this folder.
 
 Push the above changes to GitHub.
+-----------------------------------------
 
 Instructions
 Data Modeling
@@ -36,6 +37,7 @@ Use the information you have to create a table schema for each of the six CSV fi
 For the primary keys check to see if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row.
 Be sure to create tables in the correct order to handle foreign keys.
 Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
+---------------------------------------------------------
 
 Data Analysis
 Once you have a complete database, do the following:
@@ -55,6 +57,7 @@ List all employees in the Sales department, including their employee number, las
 List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+-------------------------------------
 
 Bonus (Optional)
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
